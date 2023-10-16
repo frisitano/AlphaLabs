@@ -5,7 +5,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-transform: capitalize;
     transition: all .2s linear;
     text-decoration: none;
 }
@@ -109,8 +108,8 @@ body{
 }
 
 .header .logo img{
-    width: 130%;
-    height: 3rem;
+    width: 10%;
+    height: 10%;
     top: 0;
     left: 0;
 }
@@ -160,6 +159,7 @@ body{
     padding: 0 1rem;
     position: relative;
     overflow: hidden !important;
+    text-transform: capitalize;
 }
 
 .home h1{
